@@ -1,9 +1,9 @@
-﻿Log file open, 05/18/17 21:17:14
+﻿Log file open, 05/18/17 23:12:31
 LogInit:Display: Running engine for game: Jhj0518
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1943389681) SRandInit(-1943389681).
+LogInit:Display: RandInit(-640736154) SRandInit(-640736154).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.085793
+LogStats: Stats thread started at 0.087330
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -48,517 +48,651 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.05.18-12.17.16:430][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.18-12.17.16:430][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.05.18-12.17.16:444][  0]LogInit: Computer: DESKTOP-3D07M8N
-[2017.05.18-12.17.16:444][  0]LogInit: User: neonc
-[2017.05.18-12.17.16:444][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.05.18-12.17.16:444][  0]LogInit: High frequency timer resolution =3.914065 MHz
-[2017.05.18-12.17.16:444][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.05.18-12.17.16:444][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.18-12.17.16:444][  0]LogMemory: Process Physical Memory: 264.71 MB used, 264.71 MB peak
-[2017.05.18-12.17.16:444][  0]LogMemory: Process Virtual Memory: 262.72 MB used, 262.72 MB peak
-[2017.05.18-12.17.16:444][  0]LogMemory: Physical Memory: 5329.88 MB used,  11016.88 MB free, 16346.76 MB total
-[2017.05.18-12.17.16:444][  0]LogMemory: Virtual Memory: 644.65 MB used,  11016.88 MB free, 134217728.00 MB total
-[2017.05.18-12.17.16:772][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
-[2017.05.18-12.17.16:812][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+[2017.05.18-14.12.32:933][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-14.12.32:933][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.18-14.12.32:945][  0]LogInit: Computer: DESKTOP-3D07M8N
+[2017.05.18-14.12.32:945][  0]LogInit: User: neonc
+[2017.05.18-14.12.32:945][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.18-14.12.32:945][  0]LogInit: High frequency timer resolution =3.914065 MHz
+[2017.05.18-14.12.32:945][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.05.18-14.12.32:945][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-14.12.32:945][  0]LogMemory: Process Physical Memory: 264.57 MB used, 264.57 MB peak
+[2017.05.18-14.12.32:945][  0]LogMemory: Process Virtual Memory: 262.68 MB used, 262.68 MB peak
+[2017.05.18-14.12.32:945][  0]LogMemory: Physical Memory: 4486.27 MB used,  11860.49 MB free, 16346.76 MB total
+[2017.05.18-14.12.32:945][  0]LogMemory: Virtual Memory: 644.65 MB used,  11860.49 MB free, 134217728.00 MB total
+[2017.05.18-14.12.33:243][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (502993589) Localized String: (내부 시간 누산기 - 이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
  )
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (319969718) Localized String: (연관성 테스트에 무시 - true 인 경우 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" (연관 애님) 노드가
 이 노드를 무시합니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
  )
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1232800293) Localized String: (블렌드 웨이트 - 이 노드에 대해 마지막으로 접한 블렌드 웨이트입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝까지 재생되면 반복할까요?)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복할까요?)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:bSkipFirstUpdateTransition):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:bSkipFirstUpdateTransition):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1865475011) Localized String: (첫 업데이트시 도입 상태에서의 트랜지션을 건너뛸까요? 
 기본은 true 로, 첫 업데이트시에는 트랜지션 데이터를 버립니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1865475011) Localized String: (첫 번째 업데이트 트랜지션 건너뛰기 - 첫 번째 업데이트에서 입력 스테이트의 트랜지션을 건너뜁니까?
 디폴트는 true 고 첫 번째 업데이트의 트랜지션 데이터를 버립니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (블렌드스페이스에서 샘플링할 X 좌표입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2060772590) Localized String: (X - 블렌드스페이스 샘플의 X 좌표입니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (블렌드스페이스에서 샘플링할 Y 좌표입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (Y - 블렌드스페이스 샘플의 Y 좌표입니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (블렌드스페이스에서 샘플링할 Z 좌표입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1728943471) Localized String: (Z - 블렌드스페이스 샘플의 Z 좌표입니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (재생할 블렌드스페이스 애셋입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1599043277) Localized String: (블렌드스페이스 - 재생할 블렌드스페이스 애셋입니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (이 머신에서 한 프레임 내 '동시에' 취할 수 있는 트랜지션 최대 수입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1567650430) Localized String: (프레임 당 최대 트랜지션 - 한 프레임에서 이 머신이 동시에 취할 수 있는 트랜지션 최대 수입니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 배수입니다. 음수가 되면 애니메이션을 역순으로 재생하게 됩니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 되면 애니메이션을 거꾸로 재생합니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:StartPosition):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:StartPosition):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-207153555) Localized String: (시작 위치 범위는 [0,1] 이며, 재초기화시에만 적용됩니다.
 루핑을 하면, 1 회전 후 0.f 부터 시작할 것입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-207153555) Localized String: (시작 위치 - [0, 1] 범위의 시작 위치로, 재초기화할 때만 적용됩니다.
 반복하면 1회전 후 0.f 부터 시작됩니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorWidth):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorWidth):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1448580153) Localized String: (센서 폭 - 필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1448580153) Localized String: (필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorAspectRatio):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorAspectRatio):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-194807515) Localized String: (센서 종횡비 - 읽기 전용입니다. 센서 치수에서 계산했습니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-194807515) Localized String: (읽기 전용입니다. 센서 크기에서 계산했습니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복시켜야 할까요?)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝에 도달하면 계속해서 루핑시킬것인지 입니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:Sequence):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:Sequence):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (421436424) Localized String: (시퀀스 - 재생할 애니메이션 시퀀스 애셋입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (421436424) Localized String: (재생할 애니메이션 시퀀스 애셋입니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 될 수 있으며, 그러면 애니메이션이 거꾸로 재생됩니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1274923958) Localized String: (플레이 속도 배수입니다. 음수가 되면 애니메이션이 역방향으로 재생됩니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:StartPosition):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:StartPosition):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (771611000) Localized String: (시작 위치 - 시작 위치로 재초기화할 때만 적용됩니다.
 반복하면, 1회전 후 0.f 부터 시작됩니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (771611000) Localized String: (시작 위치로, 재초기화시에만 적용됩니다.
 루핑을 하면, 1회전 후 0.f 부터 시작할 것입니다.)
-[2017.05.18-12.17.16:813][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorHeight):
+[2017.05.18-14.12.33:281][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorHeight):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1311569777) Localized String: (센서 높이 - 필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1311569777) Localized String: (필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
-[2017.05.18-12.17.17:483][  0]LogD3D11RHI: D3D11 adapters:
-[2017.05.18-12.17.17:888][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
-[2017.05.18-12.17.17:888][  0]LogD3D11RHI:       2016/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.05.18-12.17.17:890][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.05.18-12.17.17:890][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.05.18-12.17.17:890][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.05.18-12.17.17:893][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.05.18-12.17.17:893][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
-[2017.05.18-12.17.17:893][  0]LogWindows: EnumDisplayDevices:
-[2017.05.18-12.17.17:893][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
-[2017.05.18-12.17.17:894][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:1)
-[2017.05.18-12.17.17:895][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
-[2017.05.18-12.17.17:895][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
-[2017.05.18-12.17.17:896][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.05.18-12.17.17:896][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
-[2017.05.18-12.17.17:896][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
-[2017.05.18-12.17.17:896][  0]LogD3D11RHI:      Driver Date: 12-29-2016
-[2017.05.18-12.17.17:896][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.05.18-12.17.18:277][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2017.05.18-12.17.18:278][  0]LogD3D11RHI: Async texture creation enabled
-[2017.05.18-12.17.18:331][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.05.18-12.17.18:431][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Intermediate/Shaders/WorkingDirectory/3576/).
-[2017.05.18-12.17.18:431][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/neonc/AppData/Local/Temp/UnrealShaderWorkingDir/12C2880A42A18D07ADA04CB21D371A9D/'.
-[2017.05.18-12.17.18:431][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.05.18-12.17.19:749][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.05.18-12.17.19:928][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.05.18-12.17.20:102][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.05.18-12.17.20:276][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.05.18-12.17.20:450][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.05.18-12.17.20:624][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.05.18-12.17.20:796][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.05.18-12.17.20:972][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.05.18-12.17.21:137][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.05.18-12.17.21:309][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.05.18-12.17.21:480][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.05.18-12.17.21:652][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.05.18-12.17.21:823][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.05.18-12.17.21:995][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.05.18-12.17.22:165][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.05.18-12.17.22:506][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.05.18-12.17.22:506][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.05.18-12.17.22:667][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.05.18-12.17.22:959][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.05.18-12.17.23:068][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.05.18-12.17.23:238][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.05.18-12.17.23:412][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.05.18-12.17.23:582][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.05.18-12.17.23:758][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.05.18-12.17.23:758][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.05.18-12.17.25:575][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.05.18-12.17.25:614][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/neonc/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.18-12.17.25:614][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/neonc/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.05.18-12.17.25:614][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.05.18-12.17.25:614][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.05.18-12.17.25:614][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.05.18-12.17.25:614][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.05.18-12.17.25:629][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.05.18-12.17.25:641][  0]LogDerivedDataCache: Using Local data cache path C:/Users/neonc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.05.18-12.17.25:648][  0]LogSlate: Using Freetype 2.6.0
-[2017.05.18-12.17.25:649][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.18-12.17.25:649][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.18-12.17.26:081][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.18-12.17.26:083][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.05.18-12.17.26:592][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.05.18-12.17.26:769][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.05.18-12.17.26:939][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.05.18-12.17.26:939][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.05.18-12.17.26:939][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.05.18-12.17.27:897][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: jhj0518, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1899147307
-[2017.05.18-12.17.28:014][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
-[2017.05.18-12.17.28:154][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.038910 seconds
-[2017.05.18-12.17.28:158][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.05.18-12.17.28:158][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
-[2017.05.18-12.17.28:158][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.05.18-12.17.28:481][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.05.18-12.17.34:692][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.05.18-12.17.34:808][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.05.18-12.17.36:282][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.18-12.17.37:505][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.05.18-12.17.37:543][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.05.18-12.17.37:719][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.05.18-12.17.37:888][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.05.18-12.17.42:335][  0]LogEngine: Initializing Engine...
-[2017.05.18-12.17.42:336][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.05.18-12.17.42:907][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.05.18-12.17.42:928][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.05.18-12.17.42:956][  0]LogInit: FAudioDevice initialized.
-[2017.05.18-12.17.42:978][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/neonc/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.18-12.17.42:980][  0]LogInit: Texture streaming: Enabled
-[2017.05.18-12.17.43:392][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.05.18-12.17.43:723][  0]LogInit: Transaction tracking system initialized
-[2017.05.18-12.17.45:117][  0]BlueprintLog: New page: 에디터 로드
-[2017.05.18-12.17.48:676][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
-[2017.05.18-12.17.51:265][  0]LogConsoleResponse:Display: 
-[2017.05.18-12.17.51:471][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.05.18-12.17.51:471][  0]LogCook:Display: Mobile HDR setting 1
-[2017.05.18-12.17.52:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Content/' took 0.01s
-[2017.05.18-12.17.55:357][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.05.18-12.17.55:358][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.18-12.17.55:358][  0]LightingResults: New page: 라이팅 빌드
-[2017.05.18-12.17.55:521][  0]MapCheck: New page: 맵 체크
-[2017.05.18-12.17.55:521][  0]LightingResults: New page: 라이팅 빌드
-[2017.05.18-12.17.55:668][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.05.18-12.17.55:682][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.05.18-12.17.55:687][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.18-12.17.55:690][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.18-12.17.55:786][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 96.083ms.
-[2017.05.18-12.17.55:786][  0]LogFileHelpers: Loading map 'Template_Default' took 0.429
-[2017.05.18-12.17.55:857][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.05.18-12.17.56:037][  0]LogCollectionManager: Loaded 0 collections in 0.001599 seconds
-[2017.05.18-12.17.56:246][  0]LogFileCache: Scanning file cache for directory 'C:/Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Saved/Collections/' took 0.01s
-[2017.05.18-12.17.56:246][  0]LogFileCache: Scanning file cache for directory 'C:/Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Content/Developers/neonc/Collections/' took 0.01s
-[2017.05.18-12.17.56:246][  0]LogFileCache: Scanning file cache for directory 'C:/Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Content/Collections/' took 0.01s
-[2017.05.18-12.17.56:246][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.05.18-12.17.56:253][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2245 classes and 453 folders.
-[2017.05.18-12.17.56:255][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.05.18-12.17.56:255][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.05.18-12.17.56:513][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.05.18-12.17.56:628][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.05.18-12.17.56:790][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.05.18-12.17.56:956][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.05.18-12.17.56:962][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
-[2017.05.18-12.17.57:157][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.05.18-12.17.57:157][  0]LogLoad: (Engine Initialization) Total time: 44.00 seconds
-[2017.05.18-12.17.57:157][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
-[2017.05.18-12.17.57:157][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.05.18-12.17.57:157][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.05.18-12.17.57:167][  0]LogOcInput: OculusInput pre-init called
-[2017.05.18-12.17.57:183][  0]LogAssetRegistry: Asset discovery search completed in 29.1902 seconds
-[2017.05.18-12.17.57:183][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2017.05.18-12.17.57:183][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
-[2017.05.18-12.17.57:188][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.05.18-12.17.57:194][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.05.18-12.17.57:198][  0]LogSlate: Took 0.002284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2017.05.18-12.17.57:199][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.05.18-12.17.57:204][  0]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.05.18-12.17.57:309][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.18-12.17.57:339][  0]LogRenderer: Reallocating scene render targets to support 1208x648 NumSamples 1 (Frame:2).
-[2017.05.18-12.18.01:896][539]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.18-12.18.01:913][539]LogAIModule: Creating AISystem for world level1
-[2017.05.18-12.18.01:925][539]Cmd: MAP LOAD FILE="../../../../../../Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Content/Maps/level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.18-12.18.01:925][539]LightingResults: New page: 라이팅 빌드
-[2017.05.18-12.18.01:927][539]LoadErrors: New page: 맵 로드중: level1.umap
-[2017.05.18-12.18.01:927][539]MapCheck: New page: 맵 체크
-[2017.05.18-12.18.01:927][539]LightingResults: New page: 라이팅 빌드
-[2017.05.18-12.18.01:987][539]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.18-12.18.02:009][539]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.18-12.18.02:107][539]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 97.75ms.
-[2017.05.18-12.18.02:107][539]LogFileHelpers: Loading map 'level1' took 0.182
-[2017.05.18-12.18.02:762][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.05.18-12.18.03:628][707]Cmd: DELETE
-[2017.05.18-12.18.03:628][707]Cmd: ACTOR DELETE
-[2017.05.18-12.18.03:631][707]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.05.18-12.18.03:638][707]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2017.05.18-12.18.04:983][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/level1" FILE="../../../../../../Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Content/Maps/level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.05.18-12.18.05:020][854]LogSavePackage: Save=23.18ms
-[2017.05.18-12.18.05:020][854]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Saved/level16BCBE0114BE3414327208F86F9707AA8.tmp' to '../../../../../../Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Content/Maps/level1.umap'
-[2017.05.18-12.18.05:025][854]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Content/Maps/level1.umap
-[2017.05.18-12.18.05:049][854]LogFileHelpers: Saving map 'level1' took 0.165
-[2017.05.18-12.18.08:625][274]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.05.18-12.18.08:802][275]Cmd: QUIT_EDITOR
-[2017.05.18-12.18.08:855][275]LogExit: Preparing to exit.
-[2017.05.18-12.18.09:964][275]LogDirectoryWatcher: A directory notification for 'C:/Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Content/' was aborted.
-[2017.05.18-12.18.09:974][275]LogExit: Editor shut down
-[2017.05.18-12.18.09:975][275]LogExit: Transaction tracking system shut down
-[2017.05.18-12.18.10:015][275]LogObj: Freed 0b from 0 cluster array pools.
-[2017.05.18-12.18.10:015][275]LogExit: Object subsystem successfully closed.
-[2017.05.18-12.18.10:087][275]LogD3D11RHI: Shutdown
-[2017.05.18-12.18.10:087][275]LogD3D11RHI: CleanupD3DDevice
-[2017.05.18-12.18.10:133][275]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.05.18-12.18.10:172][275]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
-[2017.05.18-12.18.10:172][275]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
-[2017.05.18-12.18.10:172][275]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
-[2017.05.18-12.18.10:172][275]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
-[2017.05.18-12.18.10:172][275]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
-[2017.05.18-12.18.10:173][275]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
-[2017.05.18-12.18.10:173][275]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
-[2017.05.18-12.18.10:173][275]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
-[2017.05.18-12.18.10:173][275]LogDirectoryWatcher: A directory notification for 'C:/Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Content/Collections/' was aborted.
-[2017.05.18-12.18.10:174][275]LogDirectoryWatcher: A directory notification for 'C:/Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Content/Developers/neonc/Collections/' was aborted.
-[2017.05.18-12.18.10:174][275]LogDirectoryWatcher: A directory notification for 'C:/Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Saved/Collections/' was aborted.
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module BspMode (470)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module Media (443)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module SessionServices (430)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
-[2017.05.18-12.18.10:174][275]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module MergeActors (400)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module SizeMap (398)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module TreeMap (396)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module XmlParser (380)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module Blutility (378)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
-[2017.05.18-12.18.11:123][275]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module AutomationController (358)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module Layers (354)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module Persona (346)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module Kismet (342)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module Toolbox (336)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module OutputLog (330)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module GammaUI (328)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module Documentation (326)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module Niagara (324)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module PortalServices (318)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module AIModule (312)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
-[2017.05.18-12.18.11:165][275]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module SteamVR (300)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module OculusInput (292)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module CableComponent (286)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module SourceControl (245)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
-[2017.05.18-12.18.11:331][275]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
-[2017.05.18-12.18.11:332][275]LogModuleManager: Shutting down and abandoning module MainFrame (230)
-[2017.05.18-12.18.11:332][275]LogModuleManager: Shutting down and abandoning module HotReload (229)
-[2017.05.18-12.18.11:332][275]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
-[2017.05.18-12.18.11:333][275]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
-[2017.05.18-12.18.11:333][275]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
-[2017.05.18-12.18.11:333][275]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
-[2017.05.18-12.18.11:333][275]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
-[2017.05.18-12.18.11:433][275]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module Paper2D (204)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module MfMedia (198)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module VREditor (192)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module UMG (182)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
-[2017.05.18-12.18.11:533][275]LogModuleManager: Shutting down and abandoning module Sequencer (180)
-[2017.05.18-12.18.11:534][275]LogModuleManager: Shutting down and abandoning module AssetTools (178)
-[2017.05.18-12.18.11:534][275]LogModuleManager: Shutting down and abandoning module MessageLog (177)
-[2017.05.18-12.18.11:534][275]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
-[2017.05.18-12.18.11:534][275]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
-[2017.05.18-12.18.11:534][275]LogModuleManager: Shutting down and abandoning module Slate (168)
-[2017.05.18-12.18.11:534][275]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
-[2017.05.18-12.18.11:537][275]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
-[2017.05.18-12.18.11:537][275]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
-[2017.05.18-12.18.11:537][275]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
-[2017.05.18-12.18.11:537][275]LogModuleManager: Shutting down and abandoning module Networking (158)
-[2017.05.18-12.18.11:537][275]LogModuleManager: Shutting down and abandoning module Core (154)
-[2017.05.18-12.18.11:537][275]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
-[2017.05.18-12.18.11:710][275]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.05.18-12.18.11:710][275]LogDirectoryWatcher: A directory notification for '../../../../../../Users/neonc/Desktop/조현진프로젝트/Jhj0518project/Jhj0518/Content/' was aborted.
-[2017.05.18-12.18.11:710][275]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.05.18-12.18.11:710][275]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
-[2017.05.18-12.18.11:710][275]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
-[2017.05.18-12.18.11:710][275]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
-[2017.05.18-12.18.11:710][275]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
-[2017.05.18-12.18.11:710][275]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
-[2017.05.18-12.18.11:710][275]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
-[2017.05.18-12.18.11:710][275]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
-[2017.05.18-12.18.11:710][275]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
-[2017.05.18-12.18.11:710][275]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
-[2017.05.18-12.18.12:165][275]LogDerivedDataCache: Shutdown
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module Messaging (93)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module Settings (50)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module OculusRift (48)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module GearVR (46)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
-[2017.05.18-12.18.12:165][275]LogOnline:Display: Unloading online subsystem: NULL
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module XMPP (37)
-[2017.05.18-12.18.12:165][275]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2017.05.18-12.18.12:165][275]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.05.18-12.18.12:165][275]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6F4CCBF7-4CA9-2C11-F26A-54AC4416E44E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=b9e43040498b49cb0bac69bb44dbcde0%7C3d095c8d33ce4878b6d64bb5a7009d21%7Cc7958f3b-f8ff-46e6-a314-a2e45170ec4a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.05.18-12.18.12:195][275]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2017.05.18-12.18.12:196][275]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.05.18-12.18.12:196][275]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.05.18-12.18.12:196][275]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.05.18-12.18.12:196][275]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.05.18-12.18.12:196][275]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.05.18-12.18.12:197][275]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.05.18-12.18.12:197][275]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.05.18-12.18.12:197][275]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.05.18-12.18.12:197][275]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.05.18-12.18.12:197][275]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.05.18-12.18.12:197][275]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.05.18-12.18.12:197][275]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.05.18-12.18.12:197][275]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.05.18-12.18.12:197][275]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.05.18-12.18.12:197][275]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.05.18-12.18.12:199][275]LogExit: Exiting.
-[2017.05.18-12.18.12:210][275]Log file closed, 05/18/17 21:18:12
+[2017.05.18-14.12.33:944][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.18-14.12.34:353][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2017.05.18-14.12.34:353][  0]LogD3D11RHI:       2016/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.18-14.12.34:355][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.18-14.12.34:355][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.18-14.12.34:355][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.18-14.12.34:358][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.18-14.12.34:358][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.18-14.12.34:358][  0]LogWindows: EnumDisplayDevices:
+[2017.05.18-14.12.34:359][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2017.05.18-14.12.34:359][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:1)
+[2017.05.18-14.12.34:360][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.05.18-14.12.34:360][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.05.18-14.12.34:361][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.18-14.12.34:361][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2017.05.18-14.12.34:361][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.05.18-14.12.34:361][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.05.18-14.12.34:361][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.18-14.12.34:740][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.18-14.12.34:741][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.18-14.12.34:792][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.18-14.12.34:893][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../Users/neonc/Desktop/0518/Jhj0518/Intermediate/Shaders/WorkingDirectory/14616/).
+[2017.05.18-14.12.34:894][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/neonc/AppData/Local/Temp/UnrealShaderWorkingDir/DB85EEEF44D7A5BA1F94209E0FFC1795/'.
+[2017.05.18-14.12.34:894][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.18-14.12.36:192][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.18-14.12.36:362][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.18-14.12.36:531][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.18-14.12.36:704][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.18-14.12.36:873][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.18-14.12.37:042][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.18-14.12.37:211][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.18-14.12.37:380][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.18-14.12.37:543][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.18-14.12.37:713][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.18-14.12.37:882][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.18-14.12.38:051][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.18-14.12.38:223][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.18-14.12.38:394][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.18-14.12.38:567][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.18-14.12.38:913][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.18-14.12.38:913][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.18-14.12.39:076][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.18-14.12.39:366][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.18-14.12.39:475][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.18-14.12.39:650][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.18-14.12.39:826][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.18-14.12.39:996][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.18-14.12.40:165][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.18-14.12.40:165][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.18-14.12.41:997][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.18-14.12.42:037][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/neonc/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-14.12.42:037][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/neonc/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.18-14.12.42:037][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/neonc/Desktop/0518/Jhj0518/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.18-14.12.42:037][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.18-14.12.42:038][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/neonc/Desktop/0518/Jhj0518/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.18-14.12.42:038][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.18-14.12.42:052][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.18-14.12.42:064][  0]LogDerivedDataCache: Using Local data cache path C:/Users/neonc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.18-14.12.42:071][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.18-14.12.42:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-14.12.42:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-14.12.42:402][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-14.12.42:404][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.18-14.12.42:925][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.18-14.12.43:104][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.18-14.12.43:324][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.18-14.12.43:324][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.18-14.12.43:324][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.18-14.12.44:510][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: jhj0518, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1899147307
+[2017.05.18-14.12.44:645][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.05.18-14.12.44:817][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.053777 seconds
+[2017.05.18-14.12.44:824][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.18-14.12.44:824][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.18-14.12.44:824][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.18-14.12.45:218][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.18-14.12.50:361][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.18-14.12.50:482][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.18-14.12.52:199][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.18-14.12.53:532][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-14.12.53:570][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-14.12.53:754][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-14.12.53:938][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-14.12.58:526][  0]LogEngine: Initializing Engine...
+[2017.05.18-14.12.58:527][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.18-14.12.59:155][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-14.12.59:184][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.12.59:216][  0]LogInit: FAudioDevice initialized.
+[2017.05.18-14.12.59:237][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/neonc/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-14.12.59:239][  0]LogInit: Texture streaming: Enabled
+[2017.05.18-14.12.59:677][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.18-14.13.00:021][  0]LogInit: Transaction tracking system initialized
+[2017.05.18-14.13.01:411][  0]BlueprintLog: New page: 에디터 로드
+[2017.05.18-14.13.05:032][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.05.18-14.13.07:619][  0]LogConsoleResponse:Display: 
+[2017.05.18-14.13.07:823][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.18-14.13.07:823][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.18-14.13.08:347][  0]LogFileCache: Scanning file cache for directory 'C:/Users/neonc/Desktop/0518/Jhj0518/Content/' took 0.01s
+[2017.05.18-14.13.11:711][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-14.13.11:711][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-14.13.11:712][  0]LightingResults: New page: 라이팅 빌드
+[2017.05.18-14.13.11:875][  0]MapCheck: New page: 맵 체크
+[2017.05.18-14.13.11:875][  0]LightingResults: New page: 라이팅 빌드
+[2017.05.18-14.13.12:024][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.18-14.13.12:038][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.18-14.13.12:043][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-14.13.12:046][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-14.13.12:139][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 92.069ms.
+[2017.05.18-14.13.12:139][  0]LogFileHelpers: Loading map 'Template_Default' took 0.427
+[2017.05.18-14.13.12:386][  0]LogCollectionManager: Loaded 0 collections in 0.001418 seconds
+[2017.05.18-14.13.12:593][  0]LogFileCache: Scanning file cache for directory 'C:/Users/neonc/Desktop/0518/Jhj0518/Saved/Collections/' took 0.01s
+[2017.05.18-14.13.12:593][  0]LogFileCache: Scanning file cache for directory 'C:/Users/neonc/Desktop/0518/Jhj0518/Content/Developers/neonc/Collections/' took 0.01s
+[2017.05.18-14.13.12:593][  0]LogFileCache: Scanning file cache for directory 'C:/Users/neonc/Desktop/0518/Jhj0518/Content/Collections/' took 0.01s
+[2017.05.18-14.13.12:593][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.18-14.13.12:600][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2245 classes and 453 folders.
+[2017.05.18-14.13.12:602][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.18-14.13.12:602][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.18-14.13.12:857][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.18-14.13.12:911][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.18-14.13.13:073][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.18-14.13.13:239][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.18-14.13.13:244][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.05.18-14.13.13:434][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.18-14.13.13:434][  0]LogLoad: (Engine Initialization) Total time: 43.56 seconds
+[2017.05.18-14.13.13:434][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.25 seconds
+[2017.05.18-14.13.13:434][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.18-14.13.13:434][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.18-14.13.13:776][  0]LogOcInput: OculusInput pre-init called
+[2017.05.18-14.13.13:790][  0]LogAssetRegistry: Asset discovery search completed in 29.1663 seconds
+[2017.05.18-14.13.13:790][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.05.18-14.13.13:790][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2017.05.18-14.13.13:794][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.18-14.13.13:801][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.18-14.13.13:805][  0]LogSlate: Took 0.002396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.05.18-14.13.13:806][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.18-14.13.13:811][  0]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.18-14.13.13:915][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-14.13.13:946][  0]LogRenderer: Reallocating scene render targets to support 1208x648 NumSamples 1 (Frame:2).
+[2017.05.18-14.14.11:448][734]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-14.14.11:461][734]LogAIModule: Creating AISystem for world level1
+[2017.05.18-14.14.11:477][734]Cmd: MAP LOAD FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Maps/level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-14.14.11:477][734]LightingResults: New page: 라이팅 빌드
+[2017.05.18-14.14.11:479][734]LoadErrors: New page: 맵 로드중: level1.umap
+[2017.05.18-14.14.11:479][734]MapCheck: New page: 맵 체크
+[2017.05.18-14.14.11:479][734]LightingResults: New page: 라이팅 빌드
+[2017.05.18-14.14.11:538][734]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-14.14.11:561][734]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-14.14.11:668][734]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 107.477ms.
+[2017.05.18-14.14.11:669][734]LogFileHelpers: Loading map 'level1' took 0.193
+[2017.05.18-14.14.12:721][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.18-14.15.23:004][968]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.05.18-14.15.23:455][968]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.18-14.15.24:868][ 87]LogRenderer: Reallocating scene render targets to support 1208x808 NumSamples 1 (Frame:7742).
+[2017.05.18-14.15.25:689][147]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.18-14.15.28:018][343]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-14.15.52:614][544]BlueprintLog: New page: HeroBp 컴파일
+[2017.05.18-14.16.07:779][473]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.18-14.16.08:622][489]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Jhj0518
+
+[2017.05.18-14.16.08:622][489]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-14.16.08:622][489]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.18-14.16.08:622][489]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-14.16.08:622][489]LogTemp:Display: BranchPath = DESKTOP-3D07M8N/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-3D07M8N/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.18-14.16.08:664][494]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\neonc\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.18-14.16.08:664][494]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.18-14.16.08:664][494]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.18-14.16.08:664][494]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.18-14.16.08:664][494]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.18-14.16.08:664][494]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.18-14.18.43:959][586]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.18.53:138][456]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.18-14.18.58:028][942]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.18-14.18.58:580][942]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Jhj0518
+
+[2017.05.18-14.18.58:580][942]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-14.18.58:580][942]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.18-14.18.58:580][942]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-14.18.58:584][942]LogTemp:Display: BranchPath = DESKTOP-3D07M8N/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-3D07M8N/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.18-14.18.58:618][944]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\neonc\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.18-14.18.58:618][944]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.18-14.18.58:618][944]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.18-14.18.58:618][944]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.18-14.18.58:618][944]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.18-14.18.58:618][944]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.18-14.19.01:378][270]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.19.07:574][999]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.19.07:595][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.19.07:595][999]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 8:19:07)
+[2017.05.18-14.19.07:595][999]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-14.19.07:597][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001621s)
+[2017.05.18-14.19.07:598][999]LogAIModule: Creating AISystem for world level1
+[2017.05.18-14.19.07:598][999]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2017.05.18-14.19.07:598][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.002641s)
+[2017.05.18-14.19.07:639][999]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.19.07:667][999]LogInit: FAudioDevice initialized.
+[2017.05.18-14.19.07:710][999]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.19.07:712][999]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.18-23.19.07
+[2017.05.18-14.19.07:712][999]LogWorld: Bringing up level for play took: 0.000707
+[2017.05.18-14.19.07:875][999]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.05.18-14.19.07:876][999]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: 0.266
+[2017.05.18-14.19.16:520][952]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.18-14.19.34:791][601]BlueprintLog: New page: HeroBp 컴파일
+[2017.05.18-14.19.37:061][802]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.19.37:076][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.19.37:077][802]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 8:19:37)
+[2017.05.18-14.19.37:077][802]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-14.19.37:078][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001215s)
+[2017.05.18-14.19.37:078][802]LogAIModule: Creating AISystem for world level1
+[2017.05.18-14.19.37:079][802]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2017.05.18-14.19.37:079][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.002140s)
+[2017.05.18-14.19.37:111][802]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.19.37:133][802]LogInit: FAudioDevice initialized.
+[2017.05.18-14.19.37:161][802]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.19.37:163][802]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.18-23.19.37
+[2017.05.18-14.19.37:163][802]LogWorld: Bringing up level for play took: 0.000733
+[2017.05.18-14.19.37:164][802]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: -0.446
+[2017.05.18-14.20.03:764][263]BlueprintLog: New page: HeroBp 컴파일
+[2017.05.18-14.20.32:231][965]BlueprintLog: New page: HeroBp 컴파일
+[2017.05.18-14.20.35:011][251]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.20.35:027][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.20.35:027][251]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 8:20:35)
+[2017.05.18-14.20.35:027][251]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-14.20.35:028][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001156s)
+[2017.05.18-14.20.35:028][251]LogAIModule: Creating AISystem for world level1
+[2017.05.18-14.20.35:029][251]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2017.05.18-14.20.35:029][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.001886s)
+[2017.05.18-14.20.35:056][251]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.20.35:074][251]LogInit: FAudioDevice initialized.
+[2017.05.18-14.20.35:103][251]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.20.35:104][251]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.18-23.20.35
+[2017.05.18-14.20.35:104][251]LogWorld: Bringing up level for play took: 0.000801
+[2017.05.18-14.20.35:106][251]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: -0.505
+[2017.05.18-14.21.25:849][849]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.18-14.21.26:018][849]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.18-14.21.26:051][849]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.05.18-14.23.17:575][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroLocoMotion" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Hero/HeroLocoMotion.uasset" SILENT=true
+[2017.05.18-14.23.17:589][659]LogSavePackage: Save=11.71ms
+[2017.05.18-14.23.17:589][659]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/HeroLocoMotion6084703040705D0CBC286A8EC12B000F.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Hero/HeroLocoMotion.uasset'
+[2017.05.18-14.23.17:593][659]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Hero/HeroLocoMotion.uasset
+[2017.05.18-14.23.23:118][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroLocoMotion" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Hero/HeroLocoMotion.uasset" SILENT=true
+[2017.05.18-14.23.23:129][966]LogSavePackage: Save=5.08ms
+[2017.05.18-14.23.23:129][966]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/HeroLocoMotionD5306C2145B0F67A3B649FB2B00EE958.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Hero/HeroLocoMotion.uasset'
+[2017.05.18-14.23.23:132][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Hero/HeroLocoMotion.uasset
+[2017.05.18-14.23.54:473][366]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.05.18-14.23.54:655][366]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.05.18-14.24.52:683][297]BlueprintLog: New page: HeroAnimBP 컴파일
+[2017.05.18-14.25.07:212][278]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.25.09:713][481]BlueprintLog: New page: HeroBp 컴파일
+[2017.05.18-14.25.12:240][733]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.25.12:261][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.25.12:262][733]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 8:25:12)
+[2017.05.18-14.25.12:262][733]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-14.25.12:264][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001432s)
+[2017.05.18-14.25.12:264][733]LogAIModule: Creating AISystem for world level1
+[2017.05.18-14.25.12:264][733]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.05.18-14.25.12:264][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.002230s)
+[2017.05.18-14.25.12:292][733]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.25.12:310][733]LogInit: FAudioDevice initialized.
+[2017.05.18-14.25.12:338][733]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.25.12:339][733]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.18-23.25.12
+[2017.05.18-14.25.12:339][733]LogWorld: Bringing up level for play took: 0.000672
+[2017.05.18-14.25.12:340][733]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: 0.73
+[2017.05.18-14.27.39:675][776]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-14.28.06:744][ 87]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/level1' took 0.016
+[2017.05.18-14.28.06:748][ 87]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hero/HeroBp] ([1] browsable assets)...
+[2017.05.18-14.28.06:771][ 87]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Hero/HeroBp.HeroBp]
+[2017.05.18-14.28.06:771][ 87]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hero/HeroBp]
+[2017.05.18-14.28.06:771][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBp" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Hero/HeroBp_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.28.06:815][ 87]LogSavePackage: Save=40.82ms
+[2017.05.18-14.28.06:815][ 87]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/HeroBp_Auto18094F3DE49D0D3413E1C76A52E02D0BF.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Hero/HeroBp_Auto1.uasset'
+[2017.05.18-14.28.06:818][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Hero/HeroBp_Auto1.uasset
+[2017.05.18-14.28.06:820][ 87]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ShooterGameMode] ([1] browsable assets)...
+[2017.05.18-14.28.06:820][ 87]OBJ SavePackage: Finished generating thumbnails for package [/Game/ShooterGameMode]
+[2017.05.18-14.28.06:820][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/ShooterGameMode_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.28.06:838][ 87]LogSavePackage: Save=14.23ms
+[2017.05.18-14.28.06:838][ 87]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/ShooterGameMode_Auto133FEE68543B1420DD5D11A9F684B1346.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/ShooterGameMode_Auto1.uasset'
+[2017.05.18-14.28.06:840][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/ShooterGameMode_Auto1.uasset
+[2017.05.18-14.28.06:843][ 87]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hero/HeroAnimBP] ([1] browsable assets)...
+[2017.05.18-14.28.06:864][ 87]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Hero/HeroAnimBP.HeroAnimBP]
+[2017.05.18-14.28.06:864][ 87]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hero/HeroAnimBP]
+[2017.05.18-14.28.06:864][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroAnimBP" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Hero/HeroAnimBP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.28.06:895][ 87]LogSavePackage: Save=28.31ms
+[2017.05.18-14.28.06:895][ 87]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/HeroAnimBP_Auto10022787144A9905DC66833B16EFB1909.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Hero/HeroAnimBP_Auto1.uasset'
+[2017.05.18-14.28.06:899][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Hero/HeroAnimBP_Auto1.uasset
+[2017.05.18-14.28.06:902][ 87]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Gun/GunBP] ([1] browsable assets)...
+[2017.05.18-14.28.06:933][ 87]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Gun/GunBP.GunBP]
+[2017.05.18-14.28.06:933][ 87]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gun/GunBP]
+[2017.05.18-14.28.06:933][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Gun/GunBP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.28.06:960][ 87]LogSavePackage: Save=23.80ms
+[2017.05.18-14.28.06:960][ 87]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/GunBP_Auto1B76E57DD41C43F6E4BC53685E1D7D201.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Gun/GunBP_Auto1.uasset'
+[2017.05.18-14.28.06:964][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Gun/GunBP_Auto1.uasset
+[2017.05.18-14.28.06:964][ 87]LogFileHelpers: Auto-saving content packages took 0.219
+[2017.05.18-14.28.34:787][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-14.29.18:987][785]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-14.29.18:987][785]LogTemp:Display: Added material ShaderMap 0x000001E0FC49E780 with Material 0x000001E0C4AE2200 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.19:001][785]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000001E0FC49E780
+[2017.05.18-14.29.19:064][785]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-14.29.19:065][785]LogTemp:Display: Added material ShaderMap 0x000001E1028B8480 with Material 0x000001E0C4AE2200 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.19:072][785]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000001E1028B8480
+[2017.05.18-14.29.19:072][785]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-14.29.20:400][824]LogTemp:Display: Finished compile of shader map 0x000001E1028B8480
+[2017.05.18-14.29.20:400][824]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000001E1028B8480, marking material BulletMaterial as finished
+[2017.05.18-14.29.20:400][824]LogTemp:Display: Marking material as finished 0x000001E0C4AE2200
+[2017.05.18-14.29.20:731][825]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.18-14.29.20:731][825]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.05.18-14.29.20:731][825]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.05.18-14.29.25:156][845]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant3Vector'MaterialGraphNode_2.MaterialExpressionConstant3Vector_0')'
+[2017.05.18-14.29.25:156][845]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'MaterialGraphNode_3.MaterialExpressionConstant_1')'
+[2017.05.18-14.29.25:168][845]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-14.29.25:168][845]LogTemp:Display: Added material ShaderMap 0x000001E08F529980 with Material 0x000001E0C4AE2200 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.25:175][845]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000001E08F529980
+[2017.05.18-14.29.25:175][845]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-14.29.25:176][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-14.29.25:176][845]LogTemp:Display: Added material ShaderMap 0x000001E0F8AAEB00 with Material 0x000001E11DDCDC00 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.25:178][845]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000001E0F8AAEB00
+[2017.05.18-14.29.25:855][896]LogTemp:Display: Finished compile of shader map 0x000001E08F529980
+[2017.05.18-14.29.25:855][896]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000001E08F529980, marking material BulletMaterial as finished
+[2017.05.18-14.29.25:855][896]LogTemp:Display: Marking material as finished 0x000001E0C4AE2200
+[2017.05.18-14.29.25:867][897]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.18-14.29.25:867][897]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.05.18-14.29.25:867][897]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.05.18-14.29.25:913][902]LogTemp:Display: Finished compile of shader map 0x000001E0F8AAEB00
+[2017.05.18-14.29.25:913][902]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000001E0F8AAEB00, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-14.29.25:913][902]LogTemp:Display: Marking material as finished 0x000001E11DDCDC00
+[2017.05.18-14.29.36:613][534]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-14.29.36:614][534]LogTemp:Display: Added material ShaderMap 0x000001E0FB212400 with Material 0x000001E0C4AE2200 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.36:629][534]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000001E0FB212400
+[2017.05.18-14.29.36:633][534]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-14.29.36:633][534]LogTemp:Display: Added material ShaderMap 0x000001E0F877B900 with Material 0x000001E0C4AE2200 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.36:642][534]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000001E0F877B900
+[2017.05.18-14.29.36:642][534]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-14.29.36:672][534]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-14.29.36:673][534]LogTemp:Display: Added material ShaderMap 0x000001E0C2A34800 with Material 0x000001E0FAF18100 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.36:675][534]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000001E0C2A34800
+[2017.05.18-14.29.37:840][622]LogTemp:Display: Finished compile of shader map 0x000001E0F877B900
+[2017.05.18-14.29.37:840][622]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000001E0F877B900, marking material BulletMaterial as finished
+[2017.05.18-14.29.37:840][622]LogTemp:Display: Marking material as finished 0x000001E0C4AE2200
+[2017.05.18-14.29.37:851][623]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 46 instructions
+[2017.05.18-14.29.37:851][623]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 82 instructions
+[2017.05.18-14.29.37:851][623]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-14.29.37:851][623]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2017.05.18-14.29.37:881][626]LogTemp:Display: Finished compile of shader map 0x000001E0C2A34800
+[2017.05.18-14.29.37:881][626]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000001E0C2A34800, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-14.29.37:881][626]LogTemp:Display: Marking material as finished 0x000001E0FAF18100
+[2017.05.18-14.29.40:445][843]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-14.29.40:446][843]LogTemp:Display: Added material ShaderMap 0x000001E0C2A36080 with Material 0x000001E0C4AE2200 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.40:450][843]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000001E0C2A36080
+[2017.05.18-14.29.40:459][843]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-14.29.40:459][843]LogTemp:Display: Added material ShaderMap 0x000001E10D9AE080 with Material 0x000001E0C4AE2200 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.40:463][843]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000001E10D9AE080
+[2017.05.18-14.29.40:464][843]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-14.29.40:602][849]LogTemp:Display: Finished compile of shader map 0x000001E0C2A36080
+[2017.05.18-14.29.40:602][849]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000001E0C2A36080, marking material BulletMaterial as finished
+[2017.05.18-14.29.40:602][849]LogTemp:Display: Marking material as finished 0x000001E0C4AE2200
+[2017.05.18-14.29.41:090][891]LogTemp:Display: Finished compile of shader map 0x000001E10D9AE080
+[2017.05.18-14.29.41:090][891]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000001E10D9AE080, marking material BulletMaterial as finished
+[2017.05.18-14.29.41:090][891]LogTemp:Display: Marking material as finished 0x000001E0C4AE2200
+[2017.05.18-14.29.41:102][892]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-14.29.41:102][892]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-14.29.41:102][892]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-14.29.50:981][734]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-14.29.50:981][734]LogTemp:Display: Added material ShaderMap 0x000001E10D9AC480 with Material 0x000001E0C4AE2200 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.50:985][734]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000001E10D9AC480
+[2017.05.18-14.29.50:985][734]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-14.29.51:492][776]LogTemp:Display: Finished compile of shader map 0x000001E10D9AC480
+[2017.05.18-14.29.51:492][776]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000001E10D9AC480, marking material BulletMaterial as finished
+[2017.05.18-14.29.51:492][776]LogTemp:Display: Marking material as finished 0x000001E0C4AE2200
+[2017.05.18-14.29.51:503][777]MaterialEditorStats: 정보 Base pass shader without light map: 28 instructions
+[2017.05.18-14.29.51:503][777]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-14.29.51:503][777]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-14.29.52:844][890]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-14.29.52:844][890]LogTemp:Display: Added material ShaderMap 0x000001E10D9AEE80 with Material 0x000001E0C4AE2200 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.52:848][890]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000001E10D9AEE80
+[2017.05.18-14.29.52:848][890]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-14.29.53:353][933]LogTemp:Display: Finished compile of shader map 0x000001E10D9AEE80
+[2017.05.18-14.29.53:353][933]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000001E10D9AEE80, marking material BulletMaterial as finished
+[2017.05.18-14.29.53:353][933]LogTemp:Display: Marking material as finished 0x000001E0C4AE2200
+[2017.05.18-14.29.53:364][934]MaterialEditorStats: 정보 Base pass shader without light map: 28 instructions
+[2017.05.18-14.29.53:364][934]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-14.29.53:364][934]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-14.29.56:825][228]LogMaterialEditor: Saving and Compiling material BulletMaterial
+[2017.05.18-14.29.57:405][228]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-14.29.57:406][228]LogTemp:Display: Added material ShaderMap 0x000001E0D932CB80 with Material 0x000001E0C4AE2200 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.57:414][228]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000001E0D932CB80
+[2017.05.18-14.29.57:414][228]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-14.29.57:434][228]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-14.29.57:434][228]LogTemp:Display: Added material ShaderMap 0x000001E0D8AA9D00 with Material 0x000001E0C4562800 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.57:443][228]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000001E0D8AA9D00
+[2017.05.18-14.29.57:446][228]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-14.29.57:446][228]LogTemp:Display: Added material ShaderMap 0x000001E0C39F1600 with Material 0x000001E0C4562800 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.57:454][228]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000001E0C39F1600
+[2017.05.18-14.29.57:455][228]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-14.29.57:475][228]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BulletMaterial, compiling. 
+[2017.05.18-14.29.57:475][228]LogTemp:Display: Added material ShaderMap 0x000001E11DCC1D00 with Material 0x000001E0D3D4B700 to ShaderMapsBeingCompiled
+[2017.05.18-14.29.57:659][228]LogTemp:Display: Finished compile of shader map 0x000001E11DCC1D00
+[2017.05.18-14.29.57:659][228]LogTemp:Display: Shader map FDebugViewModeMaterialProxy BulletMaterial complete, GameThreadShaderMap 0x000001E11DCC1D00, marking material FDebugViewModeMaterialProxy BulletMaterial as finished
+[2017.05.18-14.29.57:659][228]LogTemp:Display: Marking material as finished 0x000001E0D3D4B700
+[2017.05.18-14.29.57:662][228]TextureStreamingBuild:Display: Compiling optional shaders took 0.191 seconds.
+[2017.05.18-14.29.58:540][228]LogTemp:Display: Finished compile of shader map 0x000001E0C39F1600
+[2017.05.18-14.29.58:540][228]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000001E0C39F1600, marking material BulletMaterial as finished
+[2017.05.18-14.29.58:540][228]LogTemp:Display: Marking material as finished 0x000001E0C4562800
+[2017.05.18-14.29.58:544][228]LogTemp:Display: Finished compile of shader map 0x000001E0D932CB80
+[2017.05.18-14.29.58:544][228]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000001E0D932CB80, marking material BulletMaterial as finished
+[2017.05.18-14.29.58:544][228]LogTemp:Display: Marking material as finished 0x000001E0C4AE2200
+[2017.05.18-14.29.58:588][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletMaterial" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Gun/BulletMaterial.uasset" SILENT=true
+[2017.05.18-14.29.58:601][228]LogSavePackage: Save=10.41ms
+[2017.05.18-14.29.58:601][228]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/BulletMaterialAE29DEDA4BFFE3A5CC62EDAB7E15BBB0.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Gun/BulletMaterial.uasset'
+[2017.05.18-14.29.58:607][228]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Gun/BulletMaterial.uasset
+[2017.05.18-14.29.59:918][341]LogMaterialEditor: Saving and Compiling material BulletMaterial
+[2017.05.18-14.29.59:942][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletMaterial" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Gun/BulletMaterial.uasset" SILENT=true
+[2017.05.18-14.29.59:957][341]LogSavePackage: Save=4.26ms
+[2017.05.18-14.29.59:957][341]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/BulletMaterialBE525BF84F4A948C4726A8BF54683F4A.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Gun/BulletMaterial.uasset'
+[2017.05.18-14.29.59:960][341]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Gun/BulletMaterial.uasset
+[2017.05.18-14.33.01:879][937]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-14.34.44:229][531]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-14.37.12:133][449]LogLinker:Warning: '/Game/Interface/DamageInterface' 파일을 찾을 수 없습니다.
+[2017.05.18-14.37.12:134][449]LogLinker:Warning: '/Game/Interface/DamageInterface' 파일을 찾을 수 없습니다.
+[2017.05.18-14.37.12:134][449]LogUObjectGlobals:Warning: 'Object /Game/Interface/DamageInterface.DamageInterface' 오브젝트를 찾는 데 실패했습니다.
+[2017.05.18-14.37.58:820][951]LogMetaData: Removing '/Game/Interface/DamageInterface.DamageInterface_C:DecreaseHp' ref from Metadata '/Game/DamageInterface.PackageMetaData'
+[2017.05.18-14.37.58:820][951]LogMetaData: Removing '/Game/Interface/DamageInterface.DamageInterface_C' ref from Metadata '/Game/DamageInterface.PackageMetaData'
+[2017.05.18-14.37.58:820][951]LogMetaData: Removing '/Game/Interface/DamageInterface.DamageInterface:DecreaseHp.K2Node_FunctionEntry_0' ref from Metadata '/Game/DamageInterface.PackageMetaData'
+[2017.05.18-14.37.58:820][951]LogMetaData: Removing '/Game/Interface/DamageInterface.SKEL_DamageInterface_C:DecreaseHp' ref from Metadata '/Game/DamageInterface.PackageMetaData'
+[2017.05.18-14.37.58:820][951]LogMetaData: Removing '/Game/Interface/DamageInterface.SKEL_DamageInterface_C' ref from Metadata '/Game/DamageInterface.PackageMetaData'
+[2017.05.18-14.37.58:839][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/DamageInterface" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Interface/DamageInterface.uasset" SILENT=true
+[2017.05.18-14.37.58:849][951]LogSavePackage: Save=5.99ms
+[2017.05.18-14.37.58:849][951]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/DamageInterfaceB7B8F69141AD50A0F37554B0F1C11195.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Interface/DamageInterface.uasset'
+[2017.05.18-14.37.58:859][951]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Interface/DamageInterface.uasset
+[2017.05.18-14.38.51:325][  8]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/level1' took 0.011
+[2017.05.18-14.38.51:327][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Gun/BulletBP] ([1] browsable assets)...
+[2017.05.18-14.38.51:341][  8]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Gun/BulletBP.BulletBP]
+[2017.05.18-14.38.51:341][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gun/BulletBP]
+[2017.05.18-14.38.51:341][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Gun/BulletBP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.38.51:361][  8]LogSavePackage: Save=17.53ms
+[2017.05.18-14.38.51:361][  8]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/BulletBP_Auto21A422CDF4A6EE30C42701DAB3F1AA446.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Gun/BulletBP_Auto2.uasset'
+[2017.05.18-14.38.51:364][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Gun/BulletBP_Auto2.uasset
+[2017.05.18-14.38.51:364][  8]LogFileHelpers: Auto-saving content packages took 0.038
+[2017.05.18-14.41.16:042][124]LogMetaData: Removing '/Game/Interface/DamageInterface.SKEL_DamageInterface_C' ref from Metadata '/Game/Interface/NewInterface.PackageMetaData'
+[2017.05.18-14.41.16:042][124]LogMetaData: Removing '/Game/Interface/DamageInterface.DamageInterface_C' ref from Metadata '/Game/Interface/NewInterface.PackageMetaData'
+[2017.05.18-14.41.16:062][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/DamageInterface" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Interface/DamageInterface.uasset" SILENT=true
+[2017.05.18-14.41.16:068][124]LogSavePackage: Save=3.37ms
+[2017.05.18-14.41.16:068][124]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/DamageInterfaceE3D5D2724EDADE222BB5B2AAEEEA1B76.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Interface/DamageInterface.uasset'
+[2017.05.18-14.41.16:074][124]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Interface/DamageInterface.uasset
+[2017.05.18-14.41.35:957][  2]BlueprintLog: New page: DamageInterface 컴파일
+[2017.05.18-14.42.55:956][679]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-14.43.11:239][724]LogSlate: Took 0.007652 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.18-14.43.20:087][643]BlueprintLog: New page: DamageInterface 컴파일
+[2017.05.18-14.43.32:869][605]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-14.44.20:938][186]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-14.45.21:460][ 99]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-14.45.21:883][122]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-14.46.39:333][465]LogBlueprint:Warning: [HeroBp] 'FirePoint' variable not found. Base class was probably changed.
+[2017.05.18-14.46.41:342][668]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2017.05.18-14.46.50:553][965]LogBlueprint:Warning: [HeroBp] 'Hp' variable not found. Base class was probably changed.
+[2017.05.18-14.46.50:553][965]LogBlueprint:Warning: [HeroBp] 'Hp' variable not found. Base class was probably changed.
+[2017.05.18-14.46.56:669][578]BlueprintLog: New page: HeroBp 컴파일
+[2017.05.18-14.46.56:685][578]LogBlueprint:Warning: [Compiler HeroBp] 경고 이름이 "Hp" 인 함수를 'HeroBp_C' 에서 찾을 수 없었습니다.
+'HeroBp_C' 컴파일이  Hp 설정  에 대해 되었는지 확인하세요.
+[2017.05.18-14.46.56:688][578]LogBlueprint:Error: [Compiler HeroBp] 오류  Hp  와 연관된 프로퍼티를 찾지 못했습니다.
+[2017.05.18-14.46.57:011][578]BlueprintEditorCompileResults:Warning: 경고 이름이 "Hp" 인 함수를 'HeroBp_C' 에서 찾을 수 없었습니다.
+'HeroBp_C' 컴파일이  Hp 설정  에 대해 되었는지 확인하세요.
+[2017.05.18-14.46.57:011][578]BlueprintEditorCompileResults:Error: 오류  Hp  와 연관된 프로퍼티를 찾지 못했습니다.
+[2017.05.18-14.46.57:012][578]LogBlueprint:Warning: [Compiler HeroBp] 경고 [2067.14] HeroBp 컴파일에 실패했습니다. 치명적 문제 1 회, 경고 1 회, [소요시간 342 ms] (/Game/Hero/HeroBp.HeroBp)
+[2017.05.18-14.47.09:156][829]BlueprintLog: New page: HeroBp 컴파일
+[2017.05.18-14.47.32:019][553]BlueprintLog: New page: HeroBp 컴파일
+[2017.05.18-14.47.32:043][553]LogBlueprint:Warning: [Compiler HeroBp] 경고 입력 액션 이벤트가  TriggerBullet 입력 액션  에 대한 미확인 'TriggerBullet' 액션을 레퍼런싱합니다.
+[2017.05.18-14.47.32:193][553]BlueprintEditorCompileResults:Warning: 경고 입력 액션 이벤트가  TriggerBullet 입력 액션  에 대한 미확인 'TriggerBullet' 액션을 레퍼런싱합니다.
+[2017.05.18-14.47.32:193][553]LogBlueprint:Warning: [Compiler HeroBp] 경고 [2102.32] HeroBp 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 174 ms] (/Game/Hero/HeroBp.HeroBp)
+[2017.05.18-14.48.04:405][ 90]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.18-14.48.05:182][109]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Jhj0518
+
+[2017.05.18-14.48.05:182][109]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-14.48.05:182][109]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.18-14.48.05:182][109]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-14.48.05:182][109]LogTemp:Display: BranchPath = DESKTOP-3D07M8N/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-3D07M8N/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.18-14.48.05:199][111]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\neonc\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.18-14.48.05:199][111]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.18-14.48.05:199][111]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.18-14.48.05:199][111]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.18-14.48.05:199][111]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.18-14.48.05:199][111]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.18-14.48.39:724][642]BlueprintLog: New page: HeroBp 컴파일
+[2017.05.18-14.48.56:804][809]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.48.56:833][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.48.56:833][809]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 8:48:56)
+[2017.05.18-14.48.56:833][809]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-14.48.56:834][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001256s)
+[2017.05.18-14.48.56:835][809]LogAIModule: Creating AISystem for world level1
+[2017.05.18-14.48.56:835][809]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2017.05.18-14.48.56:835][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.002095s)
+[2017.05.18-14.48.56:866][809]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.48.56:884][809]LogInit: FAudioDevice initialized.
+[2017.05.18-14.48.56:917][809]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.48.56:919][809]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.18-23.48.56
+[2017.05.18-14.48.56:919][809]LogWorld: Bringing up level for play took: 0.000773
+[2017.05.18-14.48.56:920][809]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: -0.69
+[2017.05.18-14.49.40:986][415]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/level1' took 0.016
+[2017.05.18-14.49.40:988][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hero/HeroBp] ([1] browsable assets)...
+[2017.05.18-14.49.41:008][415]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Hero/HeroBp.HeroBp]
+[2017.05.18-14.49.41:008][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hero/HeroBp]
+[2017.05.18-14.49.41:008][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBp" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Hero/HeroBp_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.49.41:058][415]LogSavePackage: Save=47.40ms
+[2017.05.18-14.49.41:058][415]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/HeroBp_Auto3E7F85AFA437A6ACA456A69A766195FF1.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Hero/HeroBp_Auto3.uasset'
+[2017.05.18-14.49.41:061][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Hero/HeroBp_Auto3.uasset
+[2017.05.18-14.49.41:063][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hero/HeroAnimBP] ([1] browsable assets)...
+[2017.05.18-14.49.41:076][415]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Hero/HeroAnimBP.HeroAnimBP]
+[2017.05.18-14.49.41:076][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hero/HeroAnimBP]
+[2017.05.18-14.49.41:076][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroAnimBP" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Hero/HeroAnimBP_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.49.41:104][415]LogSavePackage: Save=24.84ms
+[2017.05.18-14.49.41:104][415]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/HeroAnimBP_Auto346D7FFDA4E4F0232299E0D8056DC0D7C.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Hero/HeroAnimBP_Auto3.uasset'
+[2017.05.18-14.49.41:107][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Hero/HeroAnimBP_Auto3.uasset
+[2017.05.18-14.49.41:108][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Gun/GunBP] ([1] browsable assets)...
+[2017.05.18-14.49.41:125][415]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Gun/GunBP.GunBP]
+[2017.05.18-14.49.41:125][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gun/GunBP]
+[2017.05.18-14.49.41:125][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Gun/GunBP_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.49.41:158][415]LogSavePackage: Save=30.73ms
+[2017.05.18-14.49.41:158][415]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/GunBP_Auto37FBF92F943972F5E5A3ED1AC8FACDBCB.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Gun/GunBP_Auto3.uasset'
+[2017.05.18-14.49.41:161][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Gun/GunBP_Auto3.uasset
+[2017.05.18-14.49.41:163][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Gun/BulletBP] ([1] browsable assets)...
+[2017.05.18-14.49.41:179][415]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Gun/BulletBP.BulletBP]
+[2017.05.18-14.49.41:179][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gun/BulletBP]
+[2017.05.18-14.49.41:179][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Gun/BulletBP_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.49.41:211][415]LogSavePackage: Save=28.40ms
+[2017.05.18-14.49.41:211][415]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/BulletBP_Auto3BEA26A9B4DAAEBDBB484C2BB25949E53.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Gun/BulletBP_Auto3.uasset'
+[2017.05.18-14.49.41:214][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Gun/BulletBP_Auto3.uasset
+[2017.05.18-14.49.41:215][415]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Interface/DamageInterface] ([1] browsable assets)...
+[2017.05.18-14.49.41:215][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Interface/DamageInterface]
+[2017.05.18-14.49.41:225][415]LogSavePackage: Save=3.71ms
+[2017.05.18-14.49.41:225][415]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/DamageInterface_Auto3BAA0CF1E41FAA07343426386603771CF.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Interface/DamageInterface_Auto3.uasset'
+[2017.05.18-14.49.41:228][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Interface/DamageInterface_Auto3.uasset
+[2017.05.18-14.49.41:229][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface/NewInterface" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Interface/NewInterface_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.49.41:234][415]LogSavePackage: Save=1.92ms
+[2017.05.18-14.49.41:234][415]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/NewInterface_Auto3A108F3AB442A3F375ADCAABA995687B0.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Interface/NewInterface_Auto3.uasset'
+[2017.05.18-14.49.41:237][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Interface/NewInterface_Auto3.uasset
+[2017.05.18-14.49.41:237][415]LogFileHelpers: Auto-saving content packages took 0.250
