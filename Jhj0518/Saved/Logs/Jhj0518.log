@@ -696,3 +696,290 @@ Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Local
 [2017.05.18-14.49.41:234][415]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/NewInterface_Auto3A108F3AB442A3F375ADCAABA995687B0.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Interface/NewInterface_Auto3.uasset'
 [2017.05.18-14.49.41:237][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Interface/NewInterface_Auto3.uasset
 [2017.05.18-14.49.41:237][415]LogFileHelpers: Auto-saving content packages took 0.250
+[2017.05.18-14.54.49:998][101]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.54.50:023][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.54.50:023][101]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 8:54:50)
+[2017.05.18-14.54.50:023][101]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-14.54.50:025][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001540s)
+[2017.05.18-14.54.50:026][101]LogAIModule: Creating AISystem for world level1
+[2017.05.18-14.54.50:026][101]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2017.05.18-14.54.50:026][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.002591s)
+[2017.05.18-14.54.50:067][101]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.54.50:090][101]LogInit: FAudioDevice initialized.
+[2017.05.18-14.54.50:117][101]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.54.50:119][101]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.18-23.54.50
+[2017.05.18-14.54.50:120][101]LogWorld: Bringing up level for play took: 0.000913
+[2017.05.18-14.54.50:121][101]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: 0.511
+[2017.05.18-14.54.55:190][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.18-14.54.55:783][765]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.54.55:805][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.54.55:805][765]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 8:54:55)
+[2017.05.18-14.54.55:805][765]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-14.54.55:806][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001211s)
+[2017.05.18-14.54.55:807][765]LogAIModule: Creating AISystem for world level1
+[2017.05.18-14.54.55:807][765]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.05.18-14.54.55:807][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.001962s)
+[2017.05.18-14.54.55:850][765]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.54.55:874][765]LogInit: FAudioDevice initialized.
+[2017.05.18-14.54.55:903][765]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-14.54.55:905][765]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.18-23.54.55
+[2017.05.18-14.54.55:905][765]LogWorld: Bringing up level for play took: 0.000667
+[2017.05.18-14.54.55:906][765]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: 0.296
+[2017.05.18-14.56.33:528][836]BlueprintLog: New page: EnemyBP 컴파일
+[2017.05.18-14.56.53:516][651]LogMaterial: Missing cached shader map for material EnemyBodyMa, compiling. 
+[2017.05.18-14.56.53:516][651]LogTemp:Display: Added material ShaderMap 0x000001E15509CF00 with Material 0x000001E12D956700 to ShaderMapsBeingCompiled
+[2017.05.18-14.56.53:528][651]LogTemp:Display: Kicking off shader compilation for EnemyBodyMa, GameThreadShaderMap 0x000001E15509CF00
+[2017.05.18-14.56.53:613][651]LogMaterial: Missing cached shader map for material EnemyBodyMa, compiling. 
+[2017.05.18-14.56.53:613][651]LogTemp:Display: Added material ShaderMap 0x000001E155578800 with Material 0x000001E12D956700 to ShaderMapsBeingCompiled
+[2017.05.18-14.56.53:620][651]LogTemp:Display: Kicking off shader compilation for EnemyBodyMa, GameThreadShaderMap 0x000001E155578800
+[2017.05.18-14.56.53:620][651]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-14.56.54:778][731]LogTemp:Display: Finished compile of shader map 0x000001E155578800
+[2017.05.18-14.56.54:778][731]LogTemp:Display: Shader map EnemyBodyMa complete, GameThreadShaderMap 0x000001E155578800, marking material EnemyBodyMa as finished
+[2017.05.18-14.56.54:778][731]LogTemp:Display: Marking material as finished 0x000001E12D956700
+[2017.05.18-14.56.54:787][732]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.18-14.56.54:787][732]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.05.18-14.56.54:787][732]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.05.18-14.57.30:249][453]LogTemp:Display: Removed shader map 0x000001E15509CF00 from material 0x000001E12D956700
+[2017.05.18-14.57.34:121][737]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.05.18-14.57.34:122][737]LogTemp:Display: Added material ShaderMap 0x000001E134DE3200 with Material 0x000001E12D6D9F00 to ShaderMapsBeingCompiled
+[2017.05.18-14.57.34:125][737]LogTemp:Display: Kicking off shader compilation for Material_0, GameThreadShaderMap 0x000001E134DE3200
+[2017.05.18-14.57.34:164][738]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.05.18-14.57.34:165][738]LogTemp:Display: Added material ShaderMap 0x000001E15B53D980 with Material 0x000001E0D0581300 to ShaderMapsBeingCompiled
+[2017.05.18-14.57.34:168][738]LogTemp:Display: Kicking off shader compilation for Material_1, GameThreadShaderMap 0x000001E15B53D980
+[2017.05.18-14.57.34:850][779]LogTemp:Display: Finished compile of shader map 0x000001E134DE3200
+[2017.05.18-14.57.34:851][779]LogTemp:Display: Shader map Material_0 complete, GameThreadShaderMap 0x000001E134DE3200, marking material Material_0 as finished
+[2017.05.18-14.57.34:851][779]LogTemp:Display: Marking material as finished 0x000001E12D6D9F00
+[2017.05.18-14.57.34:883][781]LogTemp:Display: Finished compile of shader map 0x000001E15B53D980
+[2017.05.18-14.57.34:883][781]LogTemp:Display: Shader map Material_1 complete, GameThreadShaderMap 0x000001E15B53D980, marking material Material_1 as finished
+[2017.05.18-14.57.34:883][781]LogTemp:Display: Marking material as finished 0x000001E0D0581300
+[2017.05.18-14.57.55:789][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/M_UE4Man_Body_Inst" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/M_UE4Man_Body_Inst.uasset" SILENT=true
+[2017.05.18-14.57.55:803][710]LogSavePackage: Save=11.71ms
+[2017.05.18-14.57.55:803][710]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/M_UE4Man_Body_InstD7D5E1F84AB960B984F011924B0E4317.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/M_UE4Man_Body_Inst.uasset'
+[2017.05.18-14.57.55:809][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/M_UE4Man_Body_Inst.uasset
+[2017.05.18-14.58.10:245][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBodyMa" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/EnemyBodyMa.uasset" SILENT=true
+[2017.05.18-14.58.10:258][ 66]LogSavePackage: Save=10.82ms
+[2017.05.18-14.58.10:258][ 66]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/EnemyBodyMaE3D6BBBC42BF145726BA74A69D232F6B.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/EnemyBodyMa.uasset'
+[2017.05.18-14.58.10:265][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/EnemyBodyMa.uasset
+[2017.05.18-14.58.11:596][149]LogRenderer: Reallocating scene render targets to support 1392x1044 NumSamples 1 (Frame:195121).
+[2017.05.18-14.58.32:730][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBodyMa" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/EnemyBodyMa.uasset" SILENT=true
+[2017.05.18-14.58.32:771][486]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EnemyBodyMa, compiling. 
+[2017.05.18-14.58.32:773][486]LogTemp:Display: Added material ShaderMap 0x000001E11EAB9280 with Material 0x000001E15E54DC00 to ShaderMapsBeingCompiled
+[2017.05.18-14.58.33:200][486]LogTemp:Display: Finished compile of shader map 0x000001E11EAB9280
+[2017.05.18-14.58.33:200][486]LogTemp:Display: Shader map FDebugViewModeMaterialProxy EnemyBodyMa complete, GameThreadShaderMap 0x000001E11EAB9280, marking material FDebugViewModeMaterialProxy EnemyBodyMa as finished
+[2017.05.18-14.58.33:200][486]LogTemp:Display: Marking material as finished 0x000001E15E54DC00
+[2017.05.18-14.58.33:202][486]TextureStreamingBuild:Display: Compiling optional shaders took 0.454 seconds.
+[2017.05.18-14.58.33:237][486]LogSavePackage: Save=11.42ms
+[2017.05.18-14.58.33:237][486]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/EnemyBodyMa1352C3DC4DD04B5BFC416DA37863DB2F.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/EnemyBodyMa.uasset'
+[2017.05.18-14.58.33:242][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/EnemyBodyMa.uasset
+[2017.05.18-14.59.53:005][795]BlueprintLog: New page: EnemyAiController 컴파일
+[2017.05.18-15.00.04:100][973]BlueprintLog: New page: EnemyAiController 컴파일
+[2017.05.18-15.01.12:338][170]BlueprintLog: New page: EnemyBP 컴파일
+[2017.05.18-15.02.06:388][777]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-15.02.06:424][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.02.06:425][777]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 9:02:06)
+[2017.05.18-15.02.06:425][777]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-15.02.06:426][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001666s)
+[2017.05.18-15.02.06:427][777]LogAIModule: Creating AISystem for world level1
+[2017.05.18-15.02.06:427][777]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2017.05.18-15.02.06:427][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.002680s)
+[2017.05.18-15.02.06:460][777]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-15.02.06:480][777]LogInit: FAudioDevice initialized.
+[2017.05.18-15.02.06:510][777]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-15.02.06:511][777]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.19-00.02.06
+[2017.05.18-15.02.06:512][777]LogWorld: Bringing up level for play took: 0.001224
+[2017.05.18-15.02.06:513][777]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: 0.903
+[2017.05.18-15.03.01:872][958]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-15.03.01:895][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.03.01:895][958]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 9:03:01)
+[2017.05.18-15.03.01:896][958]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-15.03.01:897][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001307s)
+[2017.05.18-15.03.01:897][958]LogAIModule: Creating AISystem for world level1
+[2017.05.18-15.03.01:898][958]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2017.05.18-15.03.01:898][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.002167s)
+[2017.05.18-15.03.01:932][958]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-15.03.01:950][958]LogInit: FAudioDevice initialized.
+[2017.05.18-15.03.01:982][958]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-15.03.01:983][958]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.19-00.03.01
+[2017.05.18-15.03.01:983][958]LogWorld: Bringing up level for play took: 0.001232
+[2017.05.18-15.03.01:985][958]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: 0.374
+[2017.05.18-15.03.43:074][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/level1" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Maps/level1_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.18-15.03.43:113][580]LogSavePackage: Save=31.25ms
+[2017.05.18-15.03.43:113][580]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/level1_Auto486D5BE5B46E2D7AA3F460D8F72FCABD3.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Maps/level1_Auto4.umap'
+[2017.05.18-15.03.43:115][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Maps/level1_Auto4.umap
+[2017.05.18-15.03.43:119][580]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/level1' took 0.062
+[2017.05.18-15.03.43:119][580]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.062
+[2017.05.18-15.03.43:122][580]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/EnemyBP] ([1] browsable assets)...
+[2017.05.18-15.03.43:141][580]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/EnemyBP.EnemyBP]
+[2017.05.18-15.03.43:141][580]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/EnemyBP]
+[2017.05.18-15.03.43:141][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Enemy/EnemyBP_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-15.03.43:181][580]LogSavePackage: Save=36.84ms
+[2017.05.18-15.03.43:181][580]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/EnemyBP_Auto4D41EF4904E59ABC279BF879882EFF094.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Enemy/EnemyBP_Auto4.uasset'
+[2017.05.18-15.03.43:184][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Enemy/EnemyBP_Auto4.uasset
+[2017.05.18-15.03.43:191][580]LogSavePackage: Save=2.16ms
+[2017.05.18-15.03.43:191][580]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/M_UE4Man_Body_Inst_Auto4E03BC56E44BFCDC91BDF7E97443CF082.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body_Inst_Auto4.uasset'
+[2017.05.18-15.03.43:194][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body_Inst_Auto4.uasset
+[2017.05.18-15.03.43:196][580]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/EnemyAiController] ([1] browsable assets)...
+[2017.05.18-15.03.43:196][580]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/EnemyAiController]
+[2017.05.18-15.03.43:217][580]LogSavePackage: Save=17.89ms
+[2017.05.18-15.03.43:217][580]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/EnemyAiController_Auto494AA9D0741FA151CD01C1CB8830700E9.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Enemy/EnemyAiController_Auto4.uasset'
+[2017.05.18-15.03.43:219][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Enemy/EnemyAiController_Auto4.uasset
+[2017.05.18-15.03.43:219][580]LogFileHelpers: Auto-saving content packages took 0.100
+[2017.05.18-15.03.48:959][257]LogActor:Warning: VREditorButton /Engine/Transient.World_40:PersistentLevel.VREditorButton_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.05.18-15.04.40:203][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.18-15.05.06:859][824]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-15.05.06:883][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.05.06:883][824]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 9:05:06)
+[2017.05.18-15.05.06:883][824]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-15.05.06:886][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002083s)
+[2017.05.18-15.05.06:886][824]LogAIModule: Creating AISystem for world level1
+[2017.05.18-15.05.06:886][824]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2017.05.18-15.05.06:886][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.002829s)
+[2017.05.18-15.05.06:922][824]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-15.05.06:944][824]LogInit: FAudioDevice initialized.
+[2017.05.18-15.05.06:976][824]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-15.05.06:978][824]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.19-00.05.06
+[2017.05.18-15.05.06:979][824]LogWorld: Bringing up level for play took: 0.001225
+[2017.05.18-15.05.06:980][824]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: -0.63
+[2017.05.18-15.05.57:986][831]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.05.18-15.05.58:004][831]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.05.18-15.06.02:140][124]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.05.18-15.06.02:159][124]LogEditorActor: Deleted 1 Actors (1.431 secs)
+[2017.05.18-15.06.19:734][119]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.05.18-15.06.19:750][119]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.05.18-15.07.07:549][140]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.05.18-15.07.11:613][610]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.18-15.07.11:632][610]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.05.18-15.08.09:222][353]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-15.08.09:248][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.08.09:248][353]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 9:08:09)
+[2017.05.18-15.08.09:248][353]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-15.08.09:251][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002729s)
+[2017.05.18-15.08.09:251][353]LogAIModule: Creating AISystem for world level1
+[2017.05.18-15.08.09:251][353]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2017.05.18-15.08.09:251][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.003614s)
+[2017.05.18-15.08.09:295][353]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-15.08.09:324][353]LogInit: FAudioDevice initialized.
+[2017.05.18-15.08.09:358][353]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-15.08.09:359][353]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.19-00.08.09
+[2017.05.18-15.08.09:360][353]LogWorld: Bringing up level for play took: 0.000988
+[2017.05.18-15.08.09:361][353]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: -0.249
+[2017.05.18-15.09.23:398][515]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-15.09.23:424][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.09.23:424][515]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 9:09:23)
+[2017.05.18-15.09.23:425][515]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-15.09.23:428][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003127s)
+[2017.05.18-15.09.23:428][515]LogAIModule: Creating AISystem for world level1
+[2017.05.18-15.09.23:428][515]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2017.05.18-15.09.23:428][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.003937s)
+[2017.05.18-15.09.23:472][515]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-15.09.23:499][515]LogInit: FAudioDevice initialized.
+[2017.05.18-15.09.23:529][515]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-15.09.23:531][515]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.19-00.09.23
+[2017.05.18-15.09.23:531][515]LogWorld: Bringing up level for play took: 0.000925
+[2017.05.18-15.09.23:533][515]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: -0.078
+[2017.05.18-15.10.28:951][536]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-15.10.29:003][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.10.29:003][536]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 9:10:29)
+[2017.05.18-15.10.29:003][536]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-15.10.29:006][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002790s)
+[2017.05.18-15.10.29:007][536]LogAIModule: Creating AISystem for world level1
+[2017.05.18-15.10.29:007][536]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2017.05.18-15.10.29:007][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.003509s)
+[2017.05.18-15.10.29:052][536]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-15.10.29:079][536]LogInit: FAudioDevice initialized.
+[2017.05.18-15.10.29:109][536]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-15.10.29:111][536]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.19-00.10.29
+[2017.05.18-15.10.29:111][536]LogWorld: Bringing up level for play took: 0.000912
+[2017.05.18-15.10.29:112][536]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: -0.498
+[2017.05.18-15.11.52:807][346]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_30:PersistentLevel.EnemyBP_C_2.CollisionCylinder) Not currently registered. Aborting.
+[2017.05.18-15.11.52:807][346]LogActorComponent: ReregisterComponent: (/Game/Maps/level1.level1:PersistentLevel.EnemyBP_2.CollisionCylinder) Not currently registered. Aborting.
+[2017.05.18-15.11.52:807][346]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_29:PersistentLevel.EnemyBP_C_0.CollisionCylinder) Not currently registered. Aborting.
+[2017.05.18-15.14.28:237][201]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-15.14.28:263][201]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.05.18-15.14.28:263][201]LogPlayLevel: [PlayLevel] Compiling EnemyBP before play...
+[2017.05.18-15.14.28:318][201]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/level1.level1:PersistentLevel.EnemyBP_2.CollisionCylinder is already used by CapsuleComponent /Game/Maps/level1.level1:PersistentLevel.REINST_EnemyBP_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.18-15.14.28:318][201]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/level1.level1:PersistentLevel.EnemyBP_2.Arrow is already used by ArrowComponent /Game/Maps/level1.level1:PersistentLevel.REINST_EnemyBP_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.18-15.14.28:318][201]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/level1.level1:PersistentLevel.EnemyBP_2.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/level1.level1:PersistentLevel.REINST_EnemyBP_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.18-15.14.28:318][201]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/level1.level1:PersistentLevel.EnemyBP_2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/level1.level1:PersistentLevel.REINST_EnemyBP_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.18-15.14.28:578][201]LogPlayLevel: PlayLevel: Blueprint regeneration took 314 ms (1 blueprints)
+[2017.05.18-15.14.28:578][201]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 9:14:28)
+[2017.05.18-15.14.28:578][201]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-15.14.28:581][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002607s)
+[2017.05.18-15.14.28:581][201]LogAIModule: Creating AISystem for world level1
+[2017.05.18-15.14.28:581][201]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2017.05.18-15.14.28:581][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.003418s)
+[2017.05.18-15.14.28:616][201]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-15.14.28:635][201]LogInit: FAudioDevice initialized.
+[2017.05.18-15.14.28:668][201]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-15.14.28:669][201]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.19-00.14.28
+[2017.05.18-15.14.28:670][201]LogWorld: Bringing up level for play took: 0.000997
+[2017.05.18-15.14.28:671][201]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: 1.061
+[2017.05.18-15.16.33:951][265]LogEditorViewport: Clicking Background
+[2017.05.18-15.16.42:953][793]LogEditorViewport: Clicking Background
+[2017.05.18-15.19.12:704][938]LogEditorViewport: Clicking Background
+[2017.05.18-15.19.18:646][649]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-15.19.18:671][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.19.18:671][649]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 9:19:18)
+[2017.05.18-15.19.18:672][649]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-15.19.18:674][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002743s)
+[2017.05.18-15.19.18:675][649]LogAIModule: Creating AISystem for world level1
+[2017.05.18-15.19.18:675][649]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2017.05.18-15.19.18:675][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.003519s)
+[2017.05.18-15.19.18:710][649]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-15.19.18:729][649]LogInit: FAudioDevice initialized.
+[2017.05.18-15.19.18:757][649]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-15.19.18:759][649]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.19-00.19.18
+[2017.05.18-15.19.18:759][649]LogWorld: Bringing up level for play took: 0.000986
+[2017.05.18-15.19.18:761][649]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: -0.849
+[2017.05.18-15.20.30:208][947]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-15.20.30:232][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.20.30:232][947]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 9:20:30)
+[2017.05.18-15.20.30:232][947]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-15.20.30:235][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003394s)
+[2017.05.18-15.20.30:236][947]LogAIModule: Creating AISystem for world level1
+[2017.05.18-15.20.30:236][947]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2017.05.18-15.20.30:236][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.004098s)
+[2017.05.18-15.20.30:268][947]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-15.20.30:286][947]LogInit: FAudioDevice initialized.
+[2017.05.18-15.20.30:315][947]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-15.20.30:316][947]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.19-00.20.30
+[2017.05.18-15.20.30:317][947]LogWorld: Bringing up level for play took: 0.000925
+[2017.05.18-15.20.30:318][947]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: 0.708
+[2017.05.18-15.21.11:351][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/level1" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Maps/level1_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.18-15.21.11:393][287]LogSavePackage: Save=34.52ms
+[2017.05.18-15.21.11:393][287]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/level1_Auto5986DD7BA4FC2684874A559AA58CA4684.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Maps/level1_Auto5.umap'
+[2017.05.18-15.21.11:396][287]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Maps/level1_Auto5.umap
+[2017.05.18-15.21.11:399][287]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/level1' took 0.064
+[2017.05.18-15.21.11:399][287]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.064
+[2017.05.18-15.21.11:401][287]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/EnemyBP] ([1] browsable assets)...
+[2017.05.18-15.21.11:416][287]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/EnemyBP.EnemyBP]
+[2017.05.18-15.21.11:416][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/EnemyBP]
+[2017.05.18-15.21.11:416][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Enemy/EnemyBP_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-15.21.11:458][287]LogSavePackage: Save=38.68ms
+[2017.05.18-15.21.11:458][287]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/EnemyBP_Auto5D2CD51B944910DFA20CF20904F7C8514.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Enemy/EnemyBP_Auto5.uasset'
+[2017.05.18-15.21.11:462][287]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/Autosaves/Game/Enemy/EnemyBP_Auto5.uasset
+[2017.05.18-15.21.11:462][287]LogFileHelpers: Auto-saving content packages took 0.062
+[2017.05.18-15.23.07:141][114]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-15.23.10:183][411]BlueprintLog: New page: EnemyBP 컴파일
+[2017.05.18-15.23.12:336][599]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-15.23.12:364][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-15.23.12:364][599]PIE: New page: PIE 세션: level1 (2017. 5. 19. 오전 9:23:12)
+[2017.05.18-15.23.12:364][599]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2017.05.18-15.23.12:367][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002776s)
+[2017.05.18-15.23.12:367][599]LogAIModule: Creating AISystem for world level1
+[2017.05.18-15.23.12:367][599]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2017.05.18-15.23.12:367][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.003519s)
+[2017.05.18-15.23.12:410][599]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-15.23.12:438][599]LogInit: FAudioDevice initialized.
+[2017.05.18-15.23.12:467][599]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-15.23.12:468][599]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2017.05.19-00.23.12
+[2017.05.18-15.23.12:469][599]LogWorld: Bringing up level for play took: 0.000970
+[2017.05.18-15.23.12:470][599]PIE: 정보 /Game/Maps/UEDPIE_0_level1 에 대한 에디터에서 플레이 시작 시간: 0.86
+[2017.05.18-15.23.39:687][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyAiController" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/EnemyAiController.uasset" SILENT=true
+[2017.05.18-15.23.39:704][711]LogSavePackage: Save=13.87ms
+[2017.05.18-15.23.39:704][711]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/EnemyAiControllerB3538E1E47C47926E1F7B19C0D7D24C2.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/EnemyAiController.uasset'
+[2017.05.18-15.23.39:710][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/EnemyAiController.uasset
+[2017.05.18-15.23.39:725][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.18-15.23.39:771][711]LogSavePackage: Save=38.22ms
+[2017.05.18-15.23.39:771][711]LogSavePackage: Moving '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Saved/EnemyBPC4685CFF4E097B23C740B6B5DD4A0E47.tmp' to '../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/EnemyBP.uasset'
+[2017.05.18-15.23.39:777][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/neonc/Desktop/0518/Jhj0518/Content/Enemy/EnemyBP.uasset
